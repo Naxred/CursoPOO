@@ -6,8 +6,8 @@ class User extends Account{
     }
 
     void PrintDataUser(){
-        System.out.println("Name Driver: " + name + "\nDocument Driver: " + document + "\nEmail Driver: "
-        + email + "\nPassword Driver: " + password);
+        System.out.println("Name User: " + name + "\nDocument User: " + document + "\nEmail User: "
+        + email + "\nPassword User: " + password);
     }
     
 }

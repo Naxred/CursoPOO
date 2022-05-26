@@ -15,5 +15,10 @@ class Main {
         User primer_usuario = new User(100, "Isaac Uresti", "1923148", "rexkid2001@gmail.com", "qwerty123");
         primer_usuario.PrintDataUser();
 
+        System.out.println("*****************************************");
+
+        Driver primer_conductor = new Driver(200, "Jose Emilio Pacheco", "1874589", "jose@gmai.com", "vegetta777");
+        primer_conductor.PrintDataDriver();
+
     }
 }
